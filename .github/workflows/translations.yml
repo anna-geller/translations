@@ -1,0 +1,33 @@
+name: Process Translations
+
+on:
+  push:
+    branches:
+      - develop
+    paths:
+      - 'ui/src/translations/en.json'
+  pull_request:
+    branches:
+      - develop
+    paths:
+      - 'ui/src/translations/en.json'
+
+jobs:
+  capture-changes:
+    name: Capture Changes to en.json
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v3
+
+    - name: Capture the en.json file
+      id: capture_changes
+      run: |
+        cp ui/src/translations/en.json en_captured.json
+
+    - name: Upload en.json as an artifact
+      uses: actions/upload-artifact@v3
+      with:
+        name: en-json-changes
+        path: en_captured.json
