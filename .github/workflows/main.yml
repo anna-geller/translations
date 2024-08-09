@@ -16,18 +16,26 @@ jobs:
   capture-changes:
     name: Capture Changes to en.json
     runs-on: ubuntu-latest
-
     steps:
     - name: Checkout code
-      uses: actions/checkout@v3
+      uses: actions/checkout@v4
+      with:
+        fetch-depth: 2  # Ensures that at least two commits are fetched for comparison
 
-    - name: Capture the en.json file
-      id: capture_changes
+    - name: Get changes in en.json
+      id: diff_changes
       run: |
-        cp ui/src/translations/en.json en_captured.json
+        git diff HEAD^ HEAD -- ui/src/translations/en.json > en_json_changes.diff
+        cat en_json_changes.diff
 
     - name: Upload en.json as an artifact
-      uses: actions/upload-artifact@v3
+      uses: actions/upload-artifact@v4
       with:
         name: en-json-changes
         path: en_captured.json
+
+    - name: Upload diff as an artifact
+      uses: actions/upload-artifact@v4
+      with:
+        name: en-json-diff
+        path: en_json_changes.diff
