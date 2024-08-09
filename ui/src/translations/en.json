@@ -14,6 +14,7 @@
     "flows": "Flows",
     "flow": "Flow",
     "invalid source": "Invalid source code",
+    "this is a test": "This is a test",
     "update": "Update",
     "update ok": "is updated",
     "delete ok": "is deleted",
@@ -24,6 +25,7 @@
       "confirm": "Do you want to overwrite it?",
       "update": {
         "title": "Outdated revision",
+        "label": "test value",
         "description": "The revision you are editing is outdated.",
         "details": "Check the Revisions tab for more details about the latest version."
       },
