@@ -43,7 +43,7 @@ jobs:
         git commit -m "Auto-generate translations from en.json"
         git push --set-upstream origin $BRANCH_NAME
 
-        gh pr create --title "Auto-generate translations from en.json" --body "This PR was created automatically by a GitHub Action." --base develop --head $BRANCH_NAME --label "area/frontend" --assignee anna-geller --reviewer anna-geller
+        gh pr create --title "Auto-generate translations from en.json" --body "This PR was created automatically by a GitHub Action." --base develop --head $BRANCH_NAME --assignee anna-geller --reviewer anna-geller
 
     - name: Upload JSON files as artifacts
       uses: actions/upload-artifact@v4
