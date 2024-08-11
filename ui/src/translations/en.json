@@ -3,14 +3,14 @@
     "id": "Id",
     "type": "Type",
     "ok": "OK",
+    "test root level": "Welcome to Kestra!",
     "close": "Close",
     "namespace": "Namespace",
-    "namespaces": "Namespaces",
     "description": "Description",
-    "show description": "Show a description",
+    "show description": "Show description",
     "revision": "Revision",
     "Language": "Language",
-    "Set default page": "Set a default page",
+    "Set default page": "Set default page",
     "theme": "Theme",
     "flows": "Flows",
     "flow": "Flow",
@@ -36,8 +36,7 @@
     },
     "override": {
       "title": "You are going to override the current flow",
-      "description": "This will create a new revision of the flow.",
-      "details": "Previous revision of a flow will be recoverable through the revisions tab."
+      "details": "Previous flow will be recoverable through the revisions tab."
     },
     "is deprecated": "is deprecated",
     "success": "Success",
@@ -82,7 +81,6 @@
       "last5minutes": "Last 5 minutes",
       "last15minutes": "Last 15 minutes",
       "last1hour": "Last 1 hour",
-      "last3hours": "Last 3 hours",
       "last12hours": "Last 12 hours",
       "last24hours": "Last 24 hours",
       "last48hours": "Last 48 hours",
@@ -756,6 +754,11 @@
           "content": "Check the Logs and Outputs tabs to track your execution progress.<br /><br />Then, head over to the Flows page to explore other use cases.",
           "primary": "Create a new flow",
           "secondary": "Explore other Flows"
+        },
+        "7": {
+          "title": "Join the Community",
+          "content": "If you have any questions, feel free to ask in our community Slack channel.",
+          "primary": "Join us on Slack"
         }
       }
     },
