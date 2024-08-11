@@ -41,22 +41,20 @@ jobs:
         git push --set-upstream origin translations/update-translations
 
     - name: Create Pull Request
-      uses: actions/github-script@v6
+      uses: peter-evans/create-pull-request@v6
       with:
-        script: |
-          const { data: pullRequest } = await github.pulls.create({
-            owner: context.repo.owner,
-            repo: context.repo.repo,
-            title: "Auto-generate translations from en.json",
-            head: "translations/update-translations",
-            base: "develop",
-            body: "This PR was created automatically by a GitHub Action.",
-            labels: ["auto-generated"]
-          });
-          console.log(`Created PR #${pullRequest.number}`);
+        token: ${{ secrets.GITHUB_TOKEN }}
+        branch: translations/update-translations
+        commit-message: "Auto-generate translations from en.json"
+        title: "Auto-generate translations from en.json"
+        body: "This PR was created automatically by a GitHub Action."
+        labels: area/frontend
+        assignees: anna-geller
+        reviewers: anna-geller
 
     - name: Upload JSON files as artifacts
       uses: actions/upload-artifact@v4
+      if: always()
       with:
         name: translation-json-files
         path: ui/src/translations/*.json
