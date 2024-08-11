@@ -5,16 +5,16 @@
     "ok": "OK",
     "close": "Close",
     "namespace": "Namespace",
+    "namespaces": "Namespaces",
     "description": "Description",
-    "show description": "Show description",
+    "show description": "Show a description",
     "revision": "Revision",
     "Language": "Language",
-    "Set default page": "Set default page",
+    "Set default page": "Set a default page",
     "theme": "Theme",
     "flows": "Flows",
     "flow": "Flow",
     "invalid source": "Invalid source code",
-    "this is a test": "This is a test",
     "update": "Update",
     "update ok": "is updated",
     "delete ok": "is deleted",
@@ -25,7 +25,6 @@
       "confirm": "Do you want to overwrite it?",
       "update": {
         "title": "Outdated revision",
-        "label": "test value",
         "description": "The revision you are editing is outdated.",
         "details": "Check the Revisions tab for more details about the latest version."
       },
@@ -37,7 +36,8 @@
     },
     "override": {
       "title": "You are going to override the current flow",
-      "details": "Previous flow will be recoverable through the revisions tab."
+      "description": "This will create a new revision of the flow.",
+      "details": "Previous revision of a flow will be recoverable through the revisions tab."
     },
     "is deprecated": "is deprecated",
     "success": "Success",
@@ -82,6 +82,7 @@
       "last5minutes": "Last 5 minutes",
       "last15minutes": "Last 15 minutes",
       "last1hour": "Last 1 hour",
+      "last3hours": "Last 3 hours",
       "last12hours": "Last 12 hours",
       "last24hours": "Last 24 hours",
       "last48hours": "Last 48 hours",
