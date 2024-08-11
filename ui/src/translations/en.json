@@ -7,7 +7,6 @@
     "namespace": "Namespace",
     "description": "Description",
     "show description": "Show description",
-    "final translation test": "Test whether translation generation is working",
     "revision": "Revision",
     "Language": "Language",
     "Set default page": "Set default page",
@@ -824,6 +823,7 @@
       "logs": "Delete logs",
       "metrics": "Delete metrics",
       "storage": "Delete internal storage files"
-    }
+    },
+    "Sunday test field": "Validate whether translations are working"
   }
 }
