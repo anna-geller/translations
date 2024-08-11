@@ -3,7 +3,6 @@
     "id": "Id",
     "type": "Type",
     "ok": "OK",
-    "test root level": "Welcome to Kestra!",
     "close": "Close",
     "namespace": "Namespace",
     "description": "Description",
@@ -754,11 +753,6 @@
           "content": "Check the Logs and Outputs tabs to track your execution progress.<br /><br />Then, head over to the Flows page to explore other use cases.",
           "primary": "Create a new flow",
           "secondary": "Explore other Flows"
-        },
-        "7": {
-          "title": "Join the Community",
-          "content": "If you have any questions, feel free to ask in our community Slack channel.",
-          "primary": "Join us on Slack"
         }
       }
     },
