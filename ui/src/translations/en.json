@@ -753,6 +753,11 @@
           "content": "Check the Logs and Outputs tabs to track your execution progress.<br /><br />Then, head over to the Flows page to explore other use cases.",
           "primary": "Create a new flow",
           "secondary": "Explore other Flows"
+        },
+        "7": {
+          "title": "Join the Community",
+          "content": "Join our community to get help, share your feedback, and stay up-to-date with the latest news.",
+          "primary": "Join our Slack"
         }
       }
     },
@@ -823,8 +828,6 @@
       "logs": "Delete logs",
       "metrics": "Delete metrics",
       "storage": "Delete internal storage files"
-    },
-    "Translations final field": "Generate translations",
-    "Translations final field tooltip": "Generate translations for the final field"
+    }
   }
 }
