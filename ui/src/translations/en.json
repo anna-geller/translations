@@ -7,9 +7,9 @@
     "namespace": "Namespace",
     "description": "Description",
     "show description": "Show description",
+    "final translation test": "Test whether translation generation is working",
     "revision": "Revision",
     "Language": "Language",
-    "Test translation": "Select your preferred language",
     "Set default page": "Set default page",
     "theme": "Theme",
     "flows": "Flows",
@@ -36,7 +36,6 @@
     },
     "override": {
       "title": "You are going to override the current flow",
-      "description": "This will create a new revision of the flow.",
       "details": "Previous flow will be recoverable through the revisions tab."
     },
     "is deprecated": "is deprecated",
