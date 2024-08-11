@@ -738,6 +738,11 @@
           "content": "Sprawdź zakładki Logs i Outputs, aby śledzić postęp wykonania.<br /><br />Następnie przejdź do strony Flows, aby odkryć inne przypadki użycia.",
           "primary": "Utwórz nowy flow",
           "secondary": "Odkryj inne Flows"
+        },
+        "7": {
+          "primary": "Dołącz do naszego Slacka",
+          "title": "Dołącz do społeczności",
+          "content": "Dołącz do naszej społeczności, aby uzyskać pomoc, podzielić się opiniami i być na bieżąco z najnowszymi wiadomościami."
         }
       }
     },

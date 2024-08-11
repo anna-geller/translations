@@ -738,6 +738,11 @@
           "content": "Überprüfen Sie die Logs und die Registerkarten Outputs, um den Fortschritt Ihrer Ausführung zu verfolgen.<br /><br />Gehen Sie dann zur Flows-Seite, um andere Anwendungsfälle zu erkunden.",
           "primary": "Einen neuen Flow erstellen",
           "secondary": "Andere Flows erkunden"
+        },
+        "7": {
+          "primary": "Treten Sie unserem Slack bei",
+          "title": "Der Community beitreten",
+          "content": "Treten Sie unserer Community bei, um Hilfe zu erhalten, Ihr Feedback zu teilen und mit den neuesten Nachrichten auf dem Laufenden zu bleiben."
         }
       }
     },

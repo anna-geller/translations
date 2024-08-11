@@ -738,6 +738,11 @@
           "content": "실행 진행 상황을 추적하려면 Logs 및 Outputs 탭을 확인하세요.<br /><br />그런 다음 Flows 페이지로 이동하여 다른 사용 사례를 탐색하세요.",
           "primary": "새 flow 생성",
           "secondary": "다른 Flows 탐색"
+        },
+        "7": {
+          "primary": "Slack에 참여하세요",
+          "title": "커뮤니티에 참여하기",
+          "content": "커뮤니티에 가입하여 도움을 받고, 피드백을 공유하며 최신 소식을 받아보세요."
         }
       }
     },

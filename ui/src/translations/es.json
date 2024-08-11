@@ -738,6 +738,11 @@
           "content": "Revisa las pestañas de Logs y Outputs para seguir el progreso de tu ejecución.<br /><br />Luego, dirígete a la página de Flows para explorar otros casos de uso.",
           "primary": "Crear un nuevo flow",
           "secondary": "Explorar otros Flows"
+        },
+        "7": {
+          "primary": "Únete a nuestro Slack",
+          "title": "Únete a la Comunidad",
+          "content": "Únete a nuestra comunidad para obtener ayuda, compartir tus comentarios y mantenerte al día con las últimas noticias."
         }
       }
     },

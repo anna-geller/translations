@@ -738,6 +738,11 @@
           "content": "Verifique as abas Logs e Outputs para acompanhar o progresso da execução.<br /><br />Depois, vá para a página Flows para explorar outros casos de uso.",
           "primary": "Crie um novo flow",
           "secondary": "Explore outros Flows"
+        },
+        "7": {
+          "primary": "Junte-se ao nosso Slack",
+          "title": "Junte-se à Comunidade",
+          "content": "Junte-se à nossa comunidade para obter ajuda, compartilhar seu feedback e manter-se atualizado com as últimas notícias."
         }
       }
     },

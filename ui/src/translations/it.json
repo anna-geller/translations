@@ -738,6 +738,11 @@
           "content": "Controlla le schede Logs e Outputs per monitorare il progresso dell'esecuzione.<br /><br />Poi, vai alla pagina Flows per esplorare altri casi d'uso.",
           "primary": "Crea un nuovo flow",
           "secondary": "Esplora altri Flows"
+        },
+        "7": {
+          "primary": "Unisciti al nostro Slack",
+          "title": "Unisciti alla Community",
+          "content": "Unisciti alla nostra community per ottenere assistenza, condividere il tuo feedback e rimanere aggiornato con le ultime novità."
         }
       }
     },
