@@ -808,6 +808,8 @@
       "logs": "Logs हटाएं",
       "metrics": "Metrics हटाएं",
       "storage": "आंतरिक स्टोरेज फाइलें हटाएं"
-    }
+    },
+    "Translations final field tooltip": "अंतिम फ़ील्ड के लिए अनुवाद उत्पन्न करें",
+    "Translations final field": "अनुवाद उत्पन्न करें"
   }
 }

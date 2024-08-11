@@ -823,6 +823,8 @@
       "logs": "删除日志",
       "metrics": "删除指标",
       "storage": "删除内部存储文件"
-    }
+    },
+    "Translations final field tooltip": "生成最终字段的翻译",
+    "Translations final field": "生成翻译"
   }
 }

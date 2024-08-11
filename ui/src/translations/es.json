@@ -808,6 +808,8 @@
       "logs": "Eliminar logs",
       "metrics": "Eliminar métricas",
       "storage": "Eliminar archivos de almacenamiento interno"
-    }
+    },
+    "Translations final field tooltip": "Generar traducciones para el campo final",
+    "Translations final field": "Generar traducciones"
   }
 }

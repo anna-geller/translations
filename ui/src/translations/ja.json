@@ -808,6 +808,8 @@
       "logs": "ログを削除",
       "metrics": "メトリクスを削除",
       "storage": "内部ストレージファイルを削除"
-    }
+    },
+    "Translations final field tooltip": "最終フィールドの翻訳を生成",
+    "Translations final field": "翻訳を生成"
   }
 }

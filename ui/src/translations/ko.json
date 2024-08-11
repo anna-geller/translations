@@ -808,6 +808,8 @@
       "logs": "Logs 삭제",
       "metrics": "메트릭 삭제",
       "storage": "내부 저장소 파일 삭제"
-    }
+    },
+    "Translations final field tooltip": "최종 필드에 대한 번역 생성",
+    "Translations final field": "번역 생성"
   }
 }

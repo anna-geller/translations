@@ -808,6 +808,8 @@
       "logs": "Удалить логи",
       "metrics": "Удалить метрики",
       "storage": "Удалить внутренние файлы хранения"
-    }
+    },
+    "Translations final field tooltip": "Создать переводы для конечного поля",
+    "Translations final field": "Создать переводы"
   }
 }
